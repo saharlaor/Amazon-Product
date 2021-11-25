@@ -2,3 +2,8 @@
     font-family: "Amazon Ember";
     src: url(../assets/fonts/Ember/AmazonEmber_Rg.ttf);
 }
+
+@font-face {
+    font-family: "Amazon Ember Bold";
+    src: url(../assets/fonts/Ember/AmazonEmber_Bd.ttf);
+}

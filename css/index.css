@@ -42,6 +42,7 @@ body {
 
 .delivery-info {
     margin-left: 3px;
+    padding-bottom: 1px;
 }
 
 /********************\
@@ -52,8 +53,8 @@ body {
 .nav-search__logo {
     height: 100%;
     padding-top: 6px;
-    margin-left: 18px;
-    margin-right: 9px;
+    margin-left: 22px;
+    margin-right: 14px;
 }
 
 .nav-logo__link {
@@ -74,6 +75,7 @@ body {
     display: flex;
     align-items: center;
     padding: 5px 9px;
+    margin-right: 13px;
 }
 
 .delivery-location__img {
@@ -89,6 +91,13 @@ body {
     font-weight: 400;
     line-height: 14px;
     color: #ccc;
+}
+
+.delivery-info__country {
+    font-family: "Amazon Ember Bold", "Amazon Ember", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 15px;
 }
 
 .nav-search__searchbar {
