@@ -35,6 +35,10 @@ body {
     height: 60px;
 }
 
+.delivery-info {
+    margin-left: 3px;
+}
+
 /********************\
 ****** Elements ******
 \********************/
@@ -44,6 +48,7 @@ body {
     height: 100%;
     padding-top: 6px;
     margin-left: 18px;
+    margin-right: 9px;
 }
 
 .nav-logo__link {
@@ -59,6 +64,28 @@ body {
     width: 100%;
     background-image: url(../assets/img/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png);
     background-position: -10px -51px;
+}
+
+.nav-search__delivery-location {
+    display: flex;
+    align-items: center;
+    padding: 5px 9px;
+}
+
+.delivery-location__sprite {
+    background-position: -71px -378px;
+    width: 15px;
+    height: 18px;
+    margin-top: 8px;
+    background-image: url(../assets/img/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png);
+}
+
+.delivery-info__text {
+    height: 14px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #ccc;
 }
 
 /*********************\
