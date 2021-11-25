@@ -29,6 +29,30 @@ a {
     text-decoration: none;
 }
 
+select {
+    display: block;
+    top: 2.5px;
+    position: absolute;
+    left: 0;
+    height: 35px;
+    width: auto;
+    font-family: inherit;
+    cursor: pointer;
+    outline: 0;
+    opacity: 0;
+}
+
+option {
+    display: block;
+    white-space: nowrap;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+    line-height: 35px;
+    font-family: inherit;
+    cursor: pointer;
+    color: #0f1111;
+}
+
 /******************\
 ****** Blocks ******
 \******************/
