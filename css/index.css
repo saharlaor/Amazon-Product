@@ -57,11 +57,24 @@ a {
 
 .language-menu,
 .account-menu,
-.orders-menu {
+.orders-menu,
+.cart-menu {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 50px;
+}
+
+.cart-menu {
+    margin: 0 8px 0 2px;
+}
+
+.cart-count {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    height: 100%;
 }
 
 /********************\
@@ -233,7 +246,8 @@ a {
 }
 
 .account-menu__container,
-.orders-menu__container {
+.orders-menu__container,
+.cart-menu__link {
     padding: 0 9px 10px 9px;
     height: 50px;
 }
@@ -248,7 +262,8 @@ a {
 }
 
 .account-info__title,
-.orders-info__title {
+.orders-info__title,
+.cart-info__title {
     position: relative;
     padding-right: 13px;
     font-family: "Amazon Ember Bold", "Amazon Ember", Arial, sans-serif;
@@ -257,9 +272,45 @@ a {
     line-height: 15px;
 }
 
+.orders-info__title {
+    padding-right: 0;
+}
+
 .account-info__title i {
     top: 7px;
     right: -2px;
+}
+
+.cart-info__title {
+    padding-bottom: 2px;
+}
+
+.cart-menu__link {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.cart-count__count {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 13px;
+    right: auto;
+    top: 8px;
+    width: 19px;
+    padding-bottom: 2px;
+    font-family: "Amazon Ember Bold", "Amazon Ember", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #f08804;
+}
+
+.cart-count__cart {
+    display: inline-block;
+    background-position: -10px -340px;
+    width: 38px;
+    height: 26px;
 }
 
 /*********************\
