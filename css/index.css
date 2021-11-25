@@ -26,6 +26,11 @@ body {
 /******************\
 ****** Blocks ******
 \******************/
+/**** General ****/
+.main-sprite {
+    background-image: url(../assets/img/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png);
+}
+
 /**** Header ****/
 /* Nav */
 .nav-search {
@@ -62,7 +67,6 @@ body {
     display: inline-block;
     height: 100%;
     width: 100%;
-    background-image: url(../assets/img/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png);
     background-position: -10px -51px;
 }
 
@@ -72,12 +76,11 @@ body {
     padding: 5px 9px;
 }
 
-.delivery-location__sprite {
+.delivery-location__img {
     background-position: -71px -378px;
     width: 15px;
     height: 18px;
     margin-top: 8px;
-    background-image: url(../assets/img/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png);
 }
 
 .delivery-info__text {
