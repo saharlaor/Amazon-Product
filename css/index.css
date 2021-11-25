@@ -31,6 +31,10 @@ body {
     background-image: url(../assets/img/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png);
 }
 
+.flags-sprite {
+    background-image: url(../assets/img/rzrQQdi0aRm6Dap.png);
+}
+
 /**** Header ****/
 /* Nav */
 .nav-search {
@@ -43,6 +47,13 @@ body {
 .delivery-info {
     margin-left: 3px;
     padding-bottom: 1px;
+}
+
+.language-menu {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding-left: 5px;
 }
 
 /********************\
@@ -134,7 +145,9 @@ body {
     min-width: 19px;
 }
 
-.searchbar__categories i {
+.searchbar__categories i,
+.language-menu i,
+.account-menu i {
     position: absolute;
     top: 17px;
     right: 8px;
@@ -175,6 +188,33 @@ body {
     background-position: 2px -280px;
     border: none;
     border-radius: 0 4px 4px 0;
+}
+
+.nav-search__right {
+    display: flex;
+    height: 100%;
+    padding: 5px;
+}
+
+.language-menu__container {
+    position: relative;
+    margin-top: 10px;
+    margin-right: 13px;
+}
+
+.language-menu__container i {
+    top: 12px;
+    right: 3px;
+}
+
+.language-menu__flag {
+    display: flex;
+    align-items: center;
+    width: 24px;
+    height: 18px;
+    margin: 0 15px 1px 0;
+    padding: 0;
+    background-position: 0 -130px;
 }
 
 /*********************\
