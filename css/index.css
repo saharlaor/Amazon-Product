@@ -168,6 +168,15 @@ body {
     width: auto;
 }
 
+.searchbar__submit {
+    height: 100%;
+    width: 45px;
+    background-color: #febd69;
+    background-position: 2px -280px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+}
+
 /*********************\
 ****** Modifiers ******
 \*********************/
