@@ -167,12 +167,8 @@ option {
     color: #ccc;
 }
 
-.delivery-info__country {
-    font-family: "Amazon Ember Bold", "Amazon Ember", Arial, sans-serif;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 15px;
-}
+/* .delivery-info__country {
+} */
 
 .nav-search__searchbar {
     display: flex;
@@ -306,10 +302,6 @@ option {
 .cart-info__title {
     position: relative;
     padding-right: 13px;
-    font-family: "Amazon Ember Bold", "Amazon Ember", Arial, sans-serif;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 15px;
 }
 
 .orders-info__title {
@@ -342,9 +334,7 @@ option {
     top: 7px;
     width: 19px;
     padding-bottom: 2px;
-    font-family: "Amazon Ember Bold", "Amazon Ember", Arial, sans-serif;
     font-size: 16px;
-    font-weight: 700;
     color: #f08804;
 }
 
@@ -366,9 +356,6 @@ option {
 
 .hamburger-menu__label {
     padding-left: 5px;
-    font-family: "Amazon Ember Bold", "Amazon Ember", Arial, sans-serif;
-    font-size: 14px;
-    font-weight: 700;
     white-space: nowrap;
 }
 
@@ -398,6 +385,17 @@ option {
     font-size: 14px;
     font-weight: 700;
     line-height: 15px;
+}
+
+.secondary-navbar a .secondary-navbar__item:first-child,
+.secondary-navbar__item {
+    position: relative;
+    float: left;
+    height: 31px;
+    line-height: 33px;
+    color: #333;
+    font-size: 12px;
+    padding: 0 11px;
 }
 
 /*********************\
