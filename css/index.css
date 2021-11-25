@@ -117,6 +117,21 @@ option {
     margin: 5px 0 6px 0;
 }
 
+.secondary-navbar {
+    position: relative;
+    height: 33px;
+    margin: 0;
+    padding: 0 9px 0 15px;
+    border-top: 1px solid rgba(0, 0, 0, 0.17);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    background: #fafafa;
+    font-family: inherit;
+    font-size: 12px;
+    line-height: 1em;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
 /********************\
 ****** Elements ******
 \********************/
@@ -381,10 +396,6 @@ option {
     display: block;
     padding: 5px 8px 6px 8px;
     margin: 5px 1px 6px 0;
-    font-family: "Amazon Ember Bold", "Amazon Ember", Arial, sans-serif;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 15px;
 }
 
 .secondary-navbar a .secondary-navbar__item:first-child,
@@ -401,3 +412,9 @@ option {
 /*********************\
 ****** Modifiers ******
 \*********************/
+.link--bold {
+    font-family: "Amazon Ember Bold", "Amazon Ember", Arial, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 15px;
+}
