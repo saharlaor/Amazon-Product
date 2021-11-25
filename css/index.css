@@ -66,7 +66,7 @@ option {
 }
 
 /**** Header ****/
-/* Nav */
+/* Nav Search */
 .nav-search {
     display: flex;
     background-color: var(--navbar-searchbar-backgroud-color);
@@ -101,11 +101,27 @@ option {
     height: 100%;
 }
 
+.main-navbar {
+    display: flex;
+    max-height: 39px;
+    width: 100%;
+    padding-left: 11px;
+    background-color: var(--navbar-primary-backgroud-color);
+    color: #fff;
+}
+
+.hamburger-menu {
+    display: flex;
+    align-items: center;
+    padding: 8px 9px 8px 9px;
+    margin: 5px 0 6px 0;
+}
+
 /********************\
 ****** Elements ******
 \********************/
 /**** Header ****/
-/* Nav */
+/* Nav Search */
 .nav-search__logo {
     height: 100%;
     width: auto;
@@ -307,12 +323,14 @@ option {
 
 .cart-info__title {
     padding-bottom: 2px;
+    padding-right: 0;
 }
 
 .cart-menu__link {
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    padding-right: 5px;
 }
 
 .cart-count__count {
@@ -321,7 +339,7 @@ option {
     position: absolute;
     left: 13px;
     right: auto;
-    top: 8px;
+    top: 7px;
     width: 19px;
     padding-bottom: 2px;
     font-family: "Amazon Ember Bold", "Amazon Ember", Arial, sans-serif;
@@ -335,6 +353,51 @@ option {
     background-position: -10px -340px;
     width: 38px;
     height: 26px;
+    margin-bottom: 2px;
+}
+
+/**** Main Navbar ****/
+.hamburger-menu__icon {
+    display: flex;
+    width: 17px;
+    height: 14px;
+    background-position: -172px -255px;
+}
+
+.hamburger-menu__label {
+    padding-left: 5px;
+    font-family: "Amazon Ember Bold", "Amazon Ember", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.main-navbar__fill {
+    display: flex;
+    font-family: inherit;
+    flex: 1 1 auto;
+}
+
+.main-navbar__item {
+    display: block;
+    margin: 4px 0 7px 0;
+    padding: 7px 9px;
+    font-size: 14px;
+}
+
+.main-navbar__deals {
+    padding-left: 2px;
+    padding-right: 10px;
+}
+
+.main-navbar__deals-link {
+    display: block;
+    padding: 5px 8px 6px 8px;
+    margin: 5px 1px 6px 0;
+    font-family: "Amazon Ember Bold", "Amazon Ember", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 15px;
 }
 
 /*********************\
