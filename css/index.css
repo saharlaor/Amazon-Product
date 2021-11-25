@@ -1,10 +1,65 @@
+/************\
+*** Global ***
+\************/
+:root {
+    --primary-color: #0f1111;
+
+    --background-color: #fff;
+    --navbar-searchbar-backgroud-color: #131921;
+    --navbar-primary-backgroud-color: #232f3e;
+    --navbar-secondary-backgroud-color: #fafafa;
+    --navbar-color: #fff;
+    --heading-color: #1d1d1f;
+}
+
 * {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
 
-html,
 body {
-    width: 100vw;
+    overflow-x: hidden;
 }
+
+/******************\
+****** Blocks ******
+\******************/
+/**** Header ****/
+/* Nav */
+.nav-search {
+    display: flex;
+    background-color: var(--navbar-searchbar-backgroud-color);
+    color: var(--navbar-color);
+    height: 60px;
+}
+
+/********************\
+****** Elements ******
+\********************/
+/**** Header ****/
+/* Nav */
+.nav-search__logo {
+    height: 100%;
+    padding-top: 6px;
+    margin-left: 18px;
+}
+
+.nav-logo__link {
+    display: inline-block;
+    width: 97px;
+    height: 30px;
+    margin-top: 12px;
+}
+
+.nav-logo__img {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-image: url(../assets/img/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png);
+    background-position: -10px -51px;
+}
+
+/*********************\
+****** Modifiers ******
+\*********************/
