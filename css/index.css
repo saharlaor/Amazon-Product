@@ -65,6 +65,11 @@ option {
     color: #0f1111;
 }
 
+hr {
+    border: none;
+    border-top: 1px solid #e7e7e7;
+}
+
 /******************\
 ****** Blocks ******
 \******************/
@@ -184,6 +189,12 @@ option {
 .product-info {
     margin-left: 46.5%;
     margin-right: 270px;
+}
+
+.award {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
 }
 
 /********************\
@@ -551,6 +562,21 @@ option {
 .product-info__reviews-link {
     font-size: 14px;
     line-height: 20px;
+}
+
+.award__image {
+    height: 23px;
+    margin-top: 3px;
+    font-size: 12px;
+}
+
+.award__text {
+    margin: 0 5px;
+    padding-top: 2px;
+}
+
+.award__link {
+    font-size: 12px;
 }
 
 /*********************\
