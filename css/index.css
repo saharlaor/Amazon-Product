@@ -74,6 +74,17 @@ option {
     background-image: url(../assets/img/rzrQQdi0aRm6Dap.png);
 }
 
+.down-arrow {
+    display: inline-block;
+    margin: 6px 0 0 0.6em;
+    width: 7px;
+    height: 5px;
+    background-image: url(../assets/img/McBZv0ZvnbehkIx.png);
+    background-position: -90px -5px;
+    vertical-align: text-top;
+    opacity: 0.6;
+}
+
 /**** Header ****/
 /* Nav Search */
 .nav-search {
@@ -505,14 +516,28 @@ option {
     line-height: 20px;
 }
 
-.product-store__link {
-    color: #007185;
+.product-info__star-rating {
+    display: flex;
+    position: relative;
 }
 
-.product-store__link:hover {
-    color: #c7511f;
-    cursor: pointer;
-    text-decoration: underline;
+.star-rating__stars {
+    display: inline-block;
+    height: 18px;
+    width: 80px;
+    background-image: url(https://m.media-amazon.com/images/S/sash/3-fm1Jbg4IHlyhq.png);
+    background-size: 512px 256px;
+    background-repeat: no-repeat;
+    background-position: -84px -28px;
+}
+
+.product-info__reviews {
+    margin-left: 21px;
+}
+
+.product-info__reviews-link {
+    font-size: 14px;
+    line-height: 20px;
 }
 
 /*********************\
@@ -524,4 +549,14 @@ option {
     font-weight: 700;
     font-size: 14px;
     line-height: 15px;
+}
+
+.product--link {
+    color: #007185;
+}
+
+.product--link:hover {
+    color: #c7511f;
+    cursor: pointer;
+    text-decoration: underline;
 }
