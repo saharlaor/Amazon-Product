@@ -467,6 +467,9 @@ option {
     display: flex;
     float: left;
     width: 45%;
+    color: #565959;
+    font-size: 14px;
+    line-height: 20px;
 }
 
 .alt-images__item {
