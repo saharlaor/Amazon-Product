@@ -271,6 +271,11 @@ b {
     grid-template-columns: min-content auto;
     width: 100%;
     white-space: nowrap;
+    margin-bottom: 11px;
+}
+
+.return-policy i {
+    margin: 5px 0 0 5px;
 }
 
 /********************\
