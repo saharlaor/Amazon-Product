@@ -70,6 +70,14 @@ hr {
     border-top: 1px solid #e7e7e7;
 }
 
+b {
+    font-family: "Amazon Ember Bold", "Amazon Ember", Arial, sans-serif;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 15px;
+}
+
 /******************\
 ****** Blocks ******
 \******************/
@@ -593,12 +601,10 @@ hr {
     padding-right: 6px;
 }
 
-.price-info__content {
-    margin-top: 2px;
-}
-
 .price-info__price {
+    display: inline-block;
     font-size: 18px;
+    line-height: 24px;
     color: var(--price-color);
 }
 
@@ -613,6 +619,52 @@ hr {
 .product-info__description {
     margin: 8px 0 16px 0;
     padding: 0 0 4px 18px;
+}
+
+.product-purchase {
+    width: 244px;
+    float: right;
+    margin-left: 20px;
+    padding: 14px 18px;
+    border: 1px solid #d5d9d9;
+
+    border-radius: 8px;
+}
+
+.product-purchase .price-info__price {
+    margin-bottom: 4px;
+}
+
+.product-purchase__shipping-details {
+    margin: 12px 0 22px 0;
+}
+
+.product-purchase__shipping-location {
+    line-height: 16px;
+}
+
+.shipping-location {
+    position: relative;
+    margin-left: 21px;
+    font-size: 12px;
+}
+
+.shipping-location:hover {
+    text-decoration: none;
+}
+
+.shipping-location::before {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: -21px;
+    height: 14px;
+    min-width: 16px;
+    float: left;
+    background-image: url(../assets/img/kIT-Lj9i1Bch8yi.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
 }
 
 /*********************\
