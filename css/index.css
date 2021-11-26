@@ -41,19 +41,6 @@ h1 {
     margin: 0;
 }
 
-select {
-    display: block;
-    top: 2.5px;
-    position: absolute;
-    left: 0;
-    height: 35px;
-    width: auto;
-    font-family: inherit;
-    cursor: pointer;
-    outline: 0;
-    opacity: 0;
-}
-
 option {
     display: block;
     white-space: nowrap;
@@ -109,6 +96,19 @@ b {
 
 /**** Header ****/
 /* Nav Search */
+.nav-search-dropdown {
+    display: block;
+    top: 2.5px;
+    position: absolute;
+    left: 0;
+    height: 35px;
+    width: auto;
+    font-family: inherit;
+    cursor: pointer;
+    outline: 0;
+    opacity: 0;
+}
+
 .nav-search {
     display: flex;
     background-color: var(--navbar-searchbar-backgroud-color);
@@ -207,6 +207,37 @@ b {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
+}
+
+.shipping-location {
+    position: relative;
+    margin-left: 21px;
+    font-size: 12px;
+}
+
+.shipping-location:hover {
+    text-decoration: none;
+}
+
+.shipping-location::before {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: -21px;
+    height: 14px;
+    min-width: 16px;
+    float: left;
+    background-image: url(../assets/img/kIT-Lj9i1Bch8yi.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+}
+
+.product-stock {
+    margin: 9px 0 12px 0;
+    font-size: 18px;
+    line-height: 24px;
+    color: #007600;
 }
 
 /********************\
@@ -643,28 +674,30 @@ b {
     line-height: 16px;
 }
 
-.shipping-location {
-    position: relative;
-    margin-left: 21px;
-    font-size: 12px;
+.product-quantity__label {
+    display: inline-block;
+    height: 22px;
+    padding: 0 4px 0 7px;
+    color: #0f1111;
+    background: #f0f2f2;
+    border: 1px solid #d5d9d9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px 0 #d5d9d980;
+    font-size: 11px;
 }
 
-.shipping-location:hover {
-    text-decoration: none;
-}
-
-.shipping-location::before {
-    content: "";
-    position: absolute;
-    top: 1px;
-    left: -21px;
-    height: 14px;
-    min-width: 16px;
-    float: left;
-    background-image: url(../assets/img/kIT-Lj9i1Bch8yi.png);
+.product-quantity__label .down-arrow {
+    width: 10px;
+    height: 8px;
+    margin-top: 3px;
+    background-size: 400px 900px;
     background-repeat: no-repeat;
-    background-size: auto;
-    background-position: center;
+    background-position: -7px -102px;
+}
+
+.product-quantity__select {
+    opacity: 0;
+    z-index: 10;
 }
 
 /*********************\
