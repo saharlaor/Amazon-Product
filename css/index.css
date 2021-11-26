@@ -23,6 +23,13 @@ body {
     font-family: "Amazon Ember", Arial, sans-serif;
 }
 
+main {
+    max-width: 1500px;
+    min-width: 1000px;
+    margin: 0 auto;
+    background-color: var(--background-color);
+}
+
 a {
     font: inherit;
     color: inherit;
@@ -130,6 +137,12 @@ option {
     line-height: 1em;
     white-space: nowrap;
     overflow: hidden;
+}
+
+/**** Main ****/
+.black-friday-banner {
+    height: 45px;
+    width: 100%;
 }
 
 /********************\
@@ -409,9 +422,22 @@ option {
     padding: 0 11px;
 }
 
+/**** Main ****/
+.banner__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.banner__link img {
+}
+
 /*********************\
 ****** Modifiers ******
 \*********************/
+/**** General ****/
 .link--bold {
     font-family: "Amazon Ember Bold", "Amazon Ember", Arial, sans-serif;
     font-weight: 700;
