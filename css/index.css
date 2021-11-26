@@ -602,6 +602,19 @@ hr {
     color: var(--price-color);
 }
 
+.product-info__import-details {
+    color: #565959;
+}
+
+.product-info__import-details a:hover {
+    text-decoration: none;
+}
+
+.product-info__description {
+    margin: 8px 0 16px 0;
+    padding: 0 0 4px 18px;
+}
+
 /*********************\
 ****** Modifiers ******
 \*********************/
