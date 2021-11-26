@@ -150,6 +150,15 @@ option {
     padding-left: 18px;
 }
 
+/* Product */
+.alt-images {
+    display: flex;
+    flex-direction: column;
+    width: 42px;
+    padding-top: 4px;
+    list-style-type: none;
+}
+
 /********************\
 ****** Elements ******
 \********************/
@@ -439,6 +448,23 @@ option {
 .breadcrumb__link {
     color: #565959;
     font-size: 12px;
+}
+
+.product__container {
+    min-width: 996px;
+    margin-top: 20px;
+    padding: 0 18px;
+    padding-top: 0;
+}
+
+.product__display {
+    width: 45%;
+}
+
+.alt-images__item {
+    height: 42px;
+    margin-bottom: 8px;
+    border: 1px solid #a2a6ac;
 }
 
 /*********************\
