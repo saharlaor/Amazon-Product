@@ -94,6 +94,11 @@ b {
     margin: 0 3px;
 }
 
+.ssl-img {
+    vertical-align: text-top;
+    padding-right: 9px;
+}
+
 /**** Header ****/
 /* Nav Search */
 .nav-search-dropdown {
@@ -751,6 +756,9 @@ b {
     border-color: #e3931e;
 }
 
+.product-purchase__secure {
+    margin-bottom: 11px;
+}
 /*********************\
 ****** Modifiers ******
 \*********************/
