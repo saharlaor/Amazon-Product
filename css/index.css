@@ -240,6 +240,10 @@ b {
     color: #007600;
 }
 
+.product-quantity {
+    position: relative;
+}
+
 /********************\
 ****** Elements ******
 \********************/
@@ -696,8 +700,16 @@ b {
 }
 
 .product-quantity__select {
+    position: absolute;
+    left: 0;
+    padding-left: 25px;
     opacity: 0;
     z-index: 10;
+    cursor: pointer;
+}
+
+.product-quantity__select:hover + .product-quantity__label {
+    background: #e3e6e6;
 }
 
 /*********************\
