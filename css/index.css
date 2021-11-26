@@ -242,6 +242,23 @@ b {
 
 .product-quantity {
     position: relative;
+    margin-bottom: 12px;
+}
+
+.purchase-btn {
+    padding: 0 10px 0 11px;
+    font-size: 13px;
+    line-height: 29px;
+    text-align: center;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 2px 5px 0 rgba(213, 217, 217, 0.5);
+    cursor: pointer;
+}
+
+.purchase-btn:hover {
+    box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
 }
 
 /********************\
@@ -710,6 +727,28 @@ b {
 
 .product-quantity__select:hover + .product-quantity__label {
     background: #e3e6e6;
+}
+
+.product-purchase__add-btn {
+    background: #ffd814;
+    border-color: #fcd200;
+    margin-bottom: 8px;
+}
+
+.product-purchase__add-btn:hover {
+    background: #f7ca00;
+    border-color: #f2c200;
+}
+
+.product-purchase__buy-btn {
+    margin-bottom: 12px;
+    background: #ffa41c;
+    border-color: #ff8f00;
+}
+
+.product-purchase__buy-btn:hover {
+    background: #fa8900;
+    border-color: #e3931e;
 }
 
 /*********************\
