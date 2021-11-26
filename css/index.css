@@ -145,6 +145,11 @@ option {
     width: 100%;
 }
 
+.breadcrumb {
+    margin-top: 4px;
+    padding-left: 18px;
+}
+
 /********************\
 ****** Elements ******
 \********************/
@@ -431,7 +436,9 @@ option {
     width: 100%;
 }
 
-.banner__link img {
+.breadcrumb__link {
+    color: #565959;
+    font-size: 12px;
 }
 
 /*********************\
