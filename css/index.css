@@ -458,6 +458,7 @@ option {
 }
 
 .product__display {
+    display: flex;
     width: 45%;
 }
 
@@ -465,6 +466,16 @@ option {
     height: 42px;
     margin-bottom: 8px;
     border: 1px solid #a2a6ac;
+}
+
+.display__main-image {
+    margin-left: 1%;
+}
+
+.main-image__image {
+    flex: 1 1 0;
+    width: 100%;
+    padding: 0 90px;
 }
 
 /*********************\
