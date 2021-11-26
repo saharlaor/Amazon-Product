@@ -266,6 +266,13 @@ b {
     box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
 }
 
+.seller-container {
+    display: grid;
+    grid-template-columns: min-content auto;
+    width: 100%;
+    white-space: nowrap;
+}
+
 /********************\
 ****** Elements ******
 \********************/
@@ -759,6 +766,21 @@ b {
 .product-purchase__secure {
     margin-bottom: 11px;
 }
+
+.ships-from__label,
+.seller__label {
+    color: #565959;
+    padding-right: 10px;
+}
+
+.ships-from__label,
+.ships-from__text,
+.seller__label,
+.seller__text {
+    font-size: 12px;
+    line-height: 20px;
+}
+
 /*********************\
 ****** Modifiers ******
 \*********************/
