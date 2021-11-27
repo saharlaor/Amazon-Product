@@ -917,6 +917,15 @@ b {
     padding: 6px 18px;
 }
 
+.bundle__container::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: calc(100% - 35px);
+    bottom: -22px;
+    border-top: 1px solid #ccc;
+}
+
 .bundle__container .product__right-col {
     position: absolute;
     top: 0;
