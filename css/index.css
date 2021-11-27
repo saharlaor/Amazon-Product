@@ -59,7 +59,6 @@ hr {
 
 b {
     font-family: "Amazon Ember Bold", "Amazon Ember", Arial, sans-serif;
-
     font-weight: 700;
     font-size: 14px;
     line-height: 15px;
@@ -236,6 +235,23 @@ b {
     background-repeat: no-repeat;
     background-size: auto;
     background-position: center;
+}
+
+.product__right-col {
+    width: 244px;
+    float: right;
+    margin-left: 20px;
+}
+
+.product-purchase {
+    width: 100%;
+    padding: 14px 18px;
+    border: 1px solid #d5d9d9;
+    border-radius: 8px;
+}
+
+.product-purchase .price-info__price {
+    margin-bottom: 4px;
 }
 
 .product-stock {
@@ -700,20 +716,6 @@ b {
     padding: 0 0 4px 18px;
 }
 
-.product-purchase {
-    width: 244px;
-    float: right;
-    margin-left: 20px;
-    padding: 14px 18px;
-    border: 1px solid #d5d9d9;
-
-    border-radius: 8px;
-}
-
-.product-purchase .price-info__price {
-    margin-bottom: 4px;
-}
-
 .product-purchase__shipping-details {
     margin: 12px 0 22px 0;
 }
@@ -818,6 +820,33 @@ b {
     line-height: 29px;
 }
 
+.share__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 14px 4px 8px 0;
+    height: 19px;
+    gap: 8.5px;
+}
+
+.share__container .share__link:first-child {
+    margin-bottom: 4px;
+    font-size: 13px;
+}
+
+.share__link {
+    display: inline-block;
+    height: 17px;
+}
+
+.share__link-icon {
+    display: inline-block;
+    height: 17px;
+    background-image: url(../assets/img/E6vgqiIirWgGb3f.png);
+    background-size: 512px 256px;
+    background-repeat: no-repeat;
+}
+
 /*********************\
 ****** Modifiers ******
 \*********************/
@@ -837,4 +866,24 @@ b {
     color: #c7511f;
     cursor: pointer;
     text-decoration: underline;
+}
+
+.share__link-icon--email {
+    width: 19px;
+    background-position: -256px -220px;
+}
+
+.share__link-icon--facebook {
+    width: 17px;
+    background-position: -237px -151px;
+}
+
+.share__link-icon--twitter {
+    width: 18px;
+    background-position: -193px -105px;
+}
+
+.share__link-icon--pinterest {
+    width: 17px;
+    background-position: -138px -14px;
 }
