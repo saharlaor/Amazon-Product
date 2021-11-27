@@ -113,6 +113,16 @@ b {
     color: #565959;
 }
 
+.left-arrow,
+.right-arrow {
+    display: inline-block;
+    width: 11px;
+    height: 15px;
+    background-image: url(https://m.media-amazon.com/images/S/sash/McBZv0ZvnbehkIx.png);
+    background-size: 400px 900px;
+    background-repeat: no-repeat;
+}
+
 /**** Header ****/
 /* Nav Search */
 .nav-search-dropdown {
@@ -355,6 +365,13 @@ b {
 .sponsored-img {
     max-width: 214px;
     max-height: 126px;
+}
+
+/**** Carousel ****/
+.carousel {
+    display: flex;
+    height: 284px;
+    width: 100%;
 }
 
 /********************\
@@ -1168,6 +1185,59 @@ b {
     margin-top: 3px;
 }
 
+/**** Carousel ****/
+.carousel__container {
+    position: relative;
+    clear: both;
+    margin-top: 20px;
+    padding: 6px 18px;
+}
+
+.carousel__container .sponsored-info__link {
+    top: 40px;
+    left: 17px;
+}
+
+.carousel__page-count {
+    position: absolute;
+    right: 15px;
+    top: 20px;
+}
+
+.carousel__left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    padding-left: 3px;
+}
+
+.carousel__right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    padding-right: 3px;
+}
+
+.carousel__right-arrow,
+.carousel__left-arrow {
+    display: inline-block;
+    height: 39px;
+    width: 36px;
+    padding: 11px;
+    border: 1px solid #d5d9d9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+    vertical-align: top;
+}
+
+.carousel__right-arrow:hover,
+.carousel__left-arrow:hover {
+    background-color: #f7fafa;
+    border-color: #d5d9d9;
+}
+
 /*********************\
 ****** Modifiers ******
 \*********************/
@@ -1251,4 +1321,13 @@ b {
     padding-right: 1px;
     position: relative;
     font-size: 11px;
+}
+
+/**** Carousel ****/
+.carousel__arrow--left {
+    background-position: -123px -7px;
+}
+
+.carousel__arrow--right {
+    background-position: -105px -7px;
 }
