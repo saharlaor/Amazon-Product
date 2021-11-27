@@ -624,10 +624,20 @@ b {
 }
 
 .product__container {
+    position: relative;
     min-width: 996px;
     margin-top: 17px;
     padding: 0 18px;
     padding-top: 0;
+}
+
+.product__container::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: calc(100% - 300px);
+    bottom: -35px;
+    border-top: 1px solid #ccc;
 }
 
 .product__display {
