@@ -372,6 +372,8 @@ b {
     display: flex;
     height: 284px;
     width: 100%;
+    margin-top: 30px;
+    margin-bottom: 15px;
 }
 
 /********************\
@@ -1204,19 +1206,20 @@ b {
     top: 20px;
 }
 
-.carousel__left {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    padding-left: 3px;
-}
-
+.carousel__left,
 .carousel__right {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 40px;
+    padding-bottom: 55px;
+}
+
+.carousel__left {
+    padding-right: 3px;
+}
+
+.carousel__right {
     padding-right: 3px;
 }
 
@@ -1236,6 +1239,23 @@ b {
 .carousel__left-arrow:hover {
     background-color: #f7fafa;
     border-color: #d5d9d9;
+}
+
+.carousel__content {
+    display: flex;
+    flex-grow: 1;
+}
+
+.carousel__content .product--link {
+    text-overflow: ellipsis;
+    max-height: 82px;
+    display: block;
+    overflow-wrap: break-word;
+    overflow: hidden;
+}
+
+.carousel__content .product__review {
+    display: flex;
 }
 
 /*********************\
@@ -1321,6 +1341,18 @@ b {
     padding-right: 1px;
     position: relative;
     font-size: 11px;
+}
+
+.stars--four {
+    background-position: -84px -8px;
+}
+
+.stars--four-half {
+    background-position: -84px -28px;
+}
+
+.stars--five {
+    background-position: -166px -36px;
 }
 
 /**** Carousel ****/
