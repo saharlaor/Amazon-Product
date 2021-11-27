@@ -99,6 +99,15 @@ b {
     padding-right: 9px;
 }
 
+.section-title {
+    color: #c60;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 32px;
+    padding-bottom: 4px;
+}
+
 .large-plus {
     font-size: 24px;
     color: #565959;
@@ -734,6 +743,10 @@ b {
     line-height: 20px;
 }
 
+.product__review {
+    height: 18px;
+}
+
 .award__image {
     height: 23px;
     margin-top: 5px;
@@ -932,15 +945,6 @@ b {
     right: 18px;
 }
 
-.bundle__container h2 {
-    color: #c60;
-    font-family: verdana, arial, helvetica, sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 32px;
-    padding-bottom: 4px;
-}
-
 .bundle-offer__visual {
     display: flex;
     padding: 9px 0 15px 4px;
@@ -986,6 +990,7 @@ b {
 .bundle-offer__sidenote {
     display: flex;
     position: relative;
+    width: fit-content;
     padding-left: 15px;
 }
 
@@ -1109,6 +1114,60 @@ b {
     margin-top: 1px;
 }
 
+/**** Recommendations ****/
+.recommendations__container {
+    position: relative;
+    clear: both;
+    margin-top: 27px;
+    padding: 6px 18px;
+}
+
+.recommendations__container::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: calc(100% - 35px);
+    bottom: -22px;
+    border-top: 1px solid #ccc;
+}
+
+.recommendations__container .section-title {
+    margin-bottom: 16px;
+}
+
+.recommendations__list {
+    display: flex;
+    margin: 0 40px;
+}
+
+.recommendations__item {
+    width: 160px;
+    margin-left: 33px;
+}
+
+.recommendations__list .recommendations__item:nth-child(1) .star-rating__stars {
+    background-position: -166px -36px;
+}
+
+.recommendations__list .sponsored__rating-count {
+    vertical-align: super;
+    margin-left: 1px;
+}
+
+.recommendations__list .sponsored__rating-count:hover {
+    text-decoration: none;
+}
+
+.recommendations__item {
+    display: flex;
+}
+
+.recommendations__price {
+    display: flex;
+    font-size: 17px;
+    margin-top: 3px;
+}
+
 /*********************\
 ****** Modifiers ******
 \*********************/
@@ -1182,4 +1241,14 @@ b {
     vertical-align: top;
     background: url(../assets/img/info_icon_1Xsprite.png) 0px 0px no-repeat
         scroll transparent;
+}
+
+.recommendations--small-dollar {
+    color: #555;
+    line-height: normal;
+    font-size: 8px;
+    vertical-align: top;
+    padding-right: 1px;
+    position: relative;
+    font-size: 11px;
 }
