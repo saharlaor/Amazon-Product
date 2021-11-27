@@ -281,7 +281,11 @@ b {
 .gift-receipt {
     display: flex;
     padding: 2px;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
+}
+
+.wish-list {
+    margin-top: 12px;
 }
 
 /********************\
@@ -799,6 +803,19 @@ b {
     position: relative;
     bottom: -3px;
     margin: 0 5px 0 2px;
+}
+
+.wish-list__button {
+    display: block;
+    height: 31px;
+    padding: 0 10px 0 11px;
+    background: linear-gradient(to bottom, #f7f8fa, #e7e9ec);
+    border: 1px solid;
+    border-color: #adb1b8 #a2a6ac #8d9096;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgb(255 255 255 / 60%) inset;
+    font-size: 13px;
+    line-height: 29px;
 }
 
 /*********************\
