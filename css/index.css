@@ -34,7 +34,8 @@ main {
 }
 
 a,
-h1 {
+h1,
+h2 {
     font: inherit;
     color: inherit;
     text-decoration: none;
@@ -96,6 +97,11 @@ b {
 .ssl-img {
     vertical-align: text-top;
     padding-right: 9px;
+}
+
+.large-plus {
+    font-size: 24px;
+    color: #565959;
 }
 
 /**** Header ****/
@@ -796,24 +802,24 @@ b {
     background: #e3e6e6;
 }
 
-.product-purchase__add-btn {
+.add-btn {
     background: #ffd814;
     border-color: #fcd200;
     margin-bottom: 8px;
 }
 
-.product-purchase__add-btn:hover {
+.add-btn:hover {
     background: #f7ca00;
     border-color: #f2c200;
 }
 
-.product-purchase__buy-btn {
+.buy-btn {
     margin-bottom: 12px;
     background: #ffa41c;
     border-color: #ff8f00;
 }
 
-.product-purchase__buy-btn:hover {
+.buy-btn:hover {
     background: #fa8900;
     border-color: #e3931e;
 }
@@ -885,6 +891,64 @@ b {
     background-repeat: no-repeat;
 }
 
+/**** Bundle ****/
+.bundle__container {
+    clear: both;
+    padding-left: 18px;
+    padding-top: 6px;
+}
+
+.bundle__container h2 {
+    color: #c60;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 32px;
+    padding-bottom: 4px;
+}
+
+.bundle-offer__visual {
+    display: flex;
+    padding: 9px 0 15px 4px;
+}
+
+.bundle-offer__images {
+    display: flex;
+    width: fit-content;
+    gap: 10px;
+    align-items: center;
+    line-height: 116px;
+    margin: 0 25px 0 0;
+    padding: 24px 0 15px 6px;
+}
+
+.bundle-offer__images a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bundle-offer__price {
+    margin: 24px 0;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+.bundle-offer__total-price {
+    color: #565959;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 4px;
+}
+
+.bundle-offer__add-btn {
+    font-size: 11px;
+    height: 22px;
+    margin-top: 4px;
+    padding: 0 6px 0 7px;
+    line-height: 20px;
+}
+
 /*********************\
 ****** Modifiers ******
 \*********************/
@@ -924,4 +988,8 @@ b {
 .share__link-icon--pinterest {
     width: 17px;
     background-position: -138px -14px;
+}
+
+.bundle-offer__total-price--price {
+    color: var(--price-color);
 }
