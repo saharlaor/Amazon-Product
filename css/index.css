@@ -329,6 +329,7 @@ b {
     margin-top: 12px;
 }
 
+/**** Bundle ****/
 .info-icon {
     position: absolute;
     left: 12px;
@@ -339,6 +340,19 @@ b {
     background-size: 512px 256px;
     background-repeat: no-repeat;
     background-position: -412px -29px;
+}
+
+.pick-product {
+    display: inline-block;
+    max-width: 763px;
+    margin-right: 3px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.pick-product a:hover {
+    text-decoration: none;
 }
 
 /********************\
@@ -971,6 +985,17 @@ b {
     font-size: 12px;
     line-height: 16px;
     margin-left: 23px;
+}
+
+.bundle-offer__pick {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0 0 15px;
+}
+
+.pick-product__price {
+    color: var(--price-color);
+    vertical-align: top;
 }
 
 /*********************\
