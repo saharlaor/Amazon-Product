@@ -750,7 +750,6 @@ b {
     background-image: url(https://m.media-amazon.com/images/S/sash/3-fm1Jbg4IHlyhq.png);
     background-size: 512px 256px;
     background-repeat: no-repeat;
-    background-position: -84px -28px;
 }
 
 .product-info__reviews {
@@ -1162,10 +1161,6 @@ b {
 .recommendations__item {
     width: 160px;
     margin-left: 33px;
-}
-
-.recommendations__list .recommendations__item:nth-child(1) .star-rating__stars {
-    background-position: -166px -36px;
 }
 
 .recommendations__list .sponsored__rating-count {
