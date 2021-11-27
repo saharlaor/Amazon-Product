@@ -329,6 +329,18 @@ b {
     margin-top: 12px;
 }
 
+.info-icon {
+    position: absolute;
+    left: 12px;
+    top: -1px;
+    height: 18px;
+    width: 18px;
+    background-image: url(../assets/img/3-fm1Jbg4IHlyhq.png);
+    background-size: 512px 256px;
+    background-repeat: no-repeat;
+    background-position: -412px -29px;
+}
+
 /********************\
 ****** Elements ******
 \********************/
@@ -918,8 +930,8 @@ b {
     gap: 10px;
     align-items: center;
     line-height: 116px;
-    margin: 0 25px 0 0;
-    padding: 24px 0 15px 6px;
+    margin-right: 25px;
+    padding: 24px 0 0 6px;
 }
 
 .bundle-offer__images a {
@@ -947,6 +959,18 @@ b {
     margin-top: 4px;
     padding: 0 6px 0 7px;
     line-height: 20px;
+}
+
+.bundle-offer__sidenote {
+    display: flex;
+    position: relative;
+    padding-left: 15px;
+}
+
+.bundle-offer__sidenote-text {
+    font-size: 12px;
+    line-height: 16px;
+    margin-left: 23px;
 }
 
 /*********************\
