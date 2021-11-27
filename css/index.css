@@ -278,6 +278,12 @@ b {
     margin: 5px 0 0 5px;
 }
 
+.gift-receipt {
+    display: flex;
+    padding: 2px;
+    margin-bottom: 10px;
+}
+
 /********************\
 ****** Elements ******
 \********************/
@@ -784,6 +790,15 @@ b {
 .seller__text {
     font-size: 12px;
     line-height: 20px;
+}
+
+#gift-receipt__checkbox {
+    height: 13px;
+    width: 14.32px;
+    vertical-align: top;
+    position: relative;
+    bottom: -3px;
+    margin: 0 5px 0 2px;
 }
 
 /*********************\
